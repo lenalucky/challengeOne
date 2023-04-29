@@ -20,7 +20,7 @@ header h1 {
     font-size: 50px;
     padding-left: 10px;
     color: #757575;
-    text-decoration: underline;
+    text-decoration: none;
     position: relative;
     bottom: 5px;
 }
