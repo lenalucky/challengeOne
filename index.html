@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*~ Turu Turu ~*</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQH0E2TVD3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MQH0E2TVD3');
+    </script>
+</head>
+<body>
+
+    <header>
+        <!--modificar para coracao sej-->
+        <img src="IMG/logo-alura.png" alt="logo da Alura">
+        <h1>Decodificador para <a href="https://www.alura.com.br/" target="_blank">Alura</a></h1>
+    </header>
+
+    <main>
+
+        <div class="area_texto">
+            <textarea  id="escreva" placeholder="escreva aqui!"  spellcheck="false"></textarea>
+            <textarea id="texto" placeholder="a Sandy e o Junior dizem:"  readonly spellcheck="false" onclick="copiarTexto()"></textarea>
+            
+        </div>
+        
+        <div class="botoes">
+            
+            <ul>
+            <li onclick="turu()">TURU</li>
+            <li onclick="dec()">DESCODIFICAR</li>
+            <li onclick="limpar()">LIMPAR</li>
+            </ul>
+            <div class="texto-copia"><img src="IMG/icon-exclamation.svg" alt=""><h2 id="copiar">Clique a cima para copiar o texto!</h2></div>
+        </div>
+        
+        </main>
+
+    <footer><p>desenvolvido por Helena Fernandes - 2023</p></footer>
+
+</body>
+</html>
