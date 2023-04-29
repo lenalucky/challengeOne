@@ -89,7 +89,7 @@ dec = () => {
                 .replace(/turuturu/g, 'L')
                 .replace(/turuturu/g, 'M')
                 .replace(/turuturu/g, 'N')
-                .replace(/turutu/g, 'O')
+                .replace(/turutuuu/g, 'O')
                 .replace(/turuturu/g, 'P')
                 .replace(/turuturu/g, 'Q')
                 .replace(/turuturu/g, 'R')
@@ -124,7 +124,9 @@ dec = () => {
 
 function copiarTexto() {
   const textarea = document.getElementById('texto');
-  if(textarea.value == ''){alert('Nenhum texto foi copiado')}else{
+  if(textarea.value == ''){alert('Nenhum texto foi copiado')}
+
+    else {
   // Seleciona o conteúdo do textarea
 
   textarea.select();
