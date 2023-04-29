@@ -31,19 +31,6 @@ header h1 a {
 
 }
 
-header #gatinho-escreva{
-width: 90px;
-position: absolute;
-top: -18%;
-
-}
-header #gatinho-texto{
-
-    position: absolute;
-    left: 80%;
-
-}
-
 main{
     border-radius: 1px;
     background-color: #FFFFFF;
