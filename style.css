@@ -32,9 +32,9 @@ header h1 a {
 }
 
 main{
-    border-radius: none;
+    border-radius: 10px;
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
-    border-radius: none;
+    border-radius: 10px;
     border: none;
 
 }
