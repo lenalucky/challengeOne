@@ -27,13 +27,13 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: #7e7e7e;
+    color: none;
 
 }
 
 main{
     border-radius: 1px;
-    background-color: #FFFFFF;
+    background-color: #ffffff; <!--- tira a cor  da área dos botões --->
     border-radius: 5px;
     border: solid #868585;
 
@@ -58,7 +58,7 @@ textarea {
 #escreva{
     width: 60%;
     height: 400px;
-    background-color: #FFFFFF;
+    background-color: none;
     border-radius: 3px 0 3px 0;
     outline: none;
     border-left: 0;
@@ -72,7 +72,7 @@ textarea {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #FFFFFF;
+    background-color: none;
     cursor: pointer;
     outline: none;
     border-right: 0;
@@ -81,7 +81,7 @@ textarea {
 
 #texto::selection{
     background: none;
-    color: inherit#F1F1F1;
+    color: inherit #F1F1F1;
 }
 
 .botoes ul{
@@ -154,8 +154,8 @@ footer{
         margin: 0;
         border-bottom: 0;
         border-radius: 4px 4px 0 0;
-        background-color: #FFFFFF;
-        border-color: #FFFFFF;
+        background-color: none;
+        border-color: none;
         padding: 5px;
         position: a;
     }
@@ -194,7 +194,7 @@ main{
     border-radius: 0;
     border-bottom: 2px ;
     border-style: solid;
-    border-color: #8b8b8b;
+    border-color: none;
     border-right: 1px;
     border-left: 1px;
 
@@ -236,4 +236,5 @@ main{
 .botoes li:active{
     background-color: #FFFFFF;
 }
+
 }
