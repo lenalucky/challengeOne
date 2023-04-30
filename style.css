@@ -32,10 +32,10 @@ header h1 a {
 }
 
 main{
-    border-radius: 1px;
+    border-radius: 10px;
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
-    border-radius: 5px;
-    border: solid #868585;
+    border-radius: 10px;
+    border: none;
 
 }
 
@@ -62,8 +62,10 @@ textarea {
     border-radius: 3px 0 3px 0;
     outline: none;
     border-left: 10;
+    <!--- parte do texto que o usuario escreve --->
     
 }
+
 
 #texto {
     width: 38.8%;
@@ -77,6 +79,8 @@ textarea {
     outline: none;
     border-right: 10;
     border-radius: 0 3px 0 3px;
+
+    <!--- parte do texto que é decodificado --->
   }
 
 #texto::selection{
@@ -176,6 +180,7 @@ main{
     display: inline;
     border-right: 20px ;
     border-top: 10px;
+   
 
     
 }
@@ -184,19 +189,19 @@ main{
     width: 98.7%;
     border-radius: 0;
     border: 0;
-    border-right: 20px ;
+    border-right: 0px ;
 }
 
 #texto{
 
     border-right: 20px ;
-    width: 98.7%;
+    width: 98%;
     border-radius: 0;
     border-bottom: 2px ;
-    border-style: solid;
+    border-style: none;
     border-color: none;
-    border-right: 1px;
-    border-left: 1px;
+    border-right: 3px;
+    border-left: 3px;
 
     
    
