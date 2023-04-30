@@ -32,9 +32,9 @@ header h1 a {
 }
 
 main{
-    border-radius: 10px;
+    border-radius: none;
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
-    border-radius: 10px;
+    border-radius: none;
     border: none;
 
 }
@@ -59,16 +59,16 @@ textarea {
     width: 60%;
     height: 400px;
     background-color: none;
-    border-radius: 3px 0 3px 0;
+    border-radius: 0px 0 0px 0;
     outline: none;
-    border-left: 10;
+    border-left: 200;
     <!--- parte do texto que o usuario escreve --->
     
 }
 
 
 #texto {
-    width: 38.8%;
+    width: 38%;
     height: 400px;
     background-size: 100% ;
     background-color: transparent;
@@ -195,13 +195,13 @@ main{
 #texto{
 
     border-right: 20px ;
-    width: 98%;
+    width: 80%;
     border-radius: 0;
-    border-bottom: 2px ;
+    border-bottom: 0px ;
     border-style: none;
     border-color: none;
-    border-right: 3px;
-    border-left: 3px;
+    border-right: 0px;
+    border-left: 0px;
 
     
    
