@@ -32,10 +32,10 @@ header h1 a {
 }
 
 main{
-    border-radius: 10px;
+    border-radius: 1px;
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
-    border-radius: 10px;
-    border: none;
+    border-radius: 5px;
+    border: solid #868585;
 
 }
 
@@ -51,7 +51,7 @@ textarea {
     font-size: 30px;
     resize: none;
    color: #7a7a7a;
-   border-color: none;
+   border-color: #7a7a7a;
    border-top: 0;
   }
 
@@ -59,16 +59,14 @@ textarea {
     width: 60%;
     height: 400px;
     background-color: none;
-    border-radius: 0px 0 0px 0;
+    border-radius: 3px 0 3px 0;
     outline: none;
-    border-left: 200;
-    <!--- parte do texto que o usuario escreve --->
+    border-left: 0;
     
 }
 
-
 #texto {
-    width: 38%;
+    width: 38.8%;
     height: 400px;
     background-size: 100% ;
     background-color: transparent;
@@ -77,10 +75,8 @@ textarea {
     background-color: none;
     cursor: pointer;
     outline: none;
-    border-right: 10;
+    border-right: 0;
     border-radius: 0 3px 0 3px;
-
-    <!--- parte do texto que é decodificado --->
   }
 
 #texto::selection{
@@ -154,7 +150,7 @@ footer{
 
 
     header{
-        border: none;
+        border: solid;
         margin: 0;
         border-bottom: 0;
         border-radius: 4px 4px 0 0;
@@ -180,7 +176,6 @@ main{
     display: inline;
     border-right: 20px ;
     border-top: 10px;
-   
 
     
 }
@@ -189,19 +184,19 @@ main{
     width: 98.7%;
     border-radius: 0;
     border: 0;
-    border-right: 0px ;
+    border-right: 20px ;
 }
 
 #texto{
 
     border-right: 20px ;
-    width: 80%;
+    width: 98.7%;
     border-radius: 0;
-    border-bottom: 0px ;
-    border-style: none;
+    border-bottom: 2px ;
+    border-style: solid;
     border-color: none;
-    border-right: 0px;
-    border-left: 0px;
+    border-right: 1px;
+    border-left: 1px;
 
     
    
