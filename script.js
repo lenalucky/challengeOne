@@ -13,7 +13,7 @@ window.addEventListener("load", function() {
 var teste = document.getElementById("texto").readOnly = true;
 });
 turu = () => {
-  codificarTexto = (texto) =>{
+  codificarTexto = (texto) => {
 
       return texto.replace(/M/g, 'turu_! ')
                 .replace(/A/g, 'turu_! ')
@@ -124,9 +124,7 @@ dec = () => {
 
 function copiarTexto() {
   const textarea = document.getElementById('texto');
-  if(textarea.value == ''){alert('Nenhum texto foi copiado')}
-
-    else {
+  if(textarea.value == ''){alert('Nenhum texto foi copiado')}else{
   // Seleciona o conteúdo do textarea
 
   textarea.select();
