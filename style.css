@@ -155,8 +155,15 @@ footer {
 .icones {
 
     width: 4%;
+    -webkit-filter:grayscale(100%);
+    width: 1.5%;
 
     
+}
+
+.icones:hover {
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
 }
 
 .coracao {
