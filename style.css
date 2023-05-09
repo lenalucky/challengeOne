@@ -10,7 +10,7 @@ body{
 }
 
 
-header{
+header {
     margin-left: 15px;
     position: relative;
 }
@@ -18,6 +18,7 @@ header{
 header h1 {
     display: inline-block;
     font-size: 50px;
+    font-family: Arvo, serif;
     padding-left: 10px;
     color: #757575;
     text-decoration: none;
@@ -31,7 +32,7 @@ header h1 a {
 
 }
 
-main{
+main {
     border-radius: 10px;
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
     border-radius: 10px;
@@ -49,13 +50,14 @@ main{
 
 textarea {
     font-size: 30px;
+    font-family: Rubik, serif;
     resize: none;
-   color: #7a7a7a;
-   border-color: none;
-   border-top: 0;
+    color: #7a7a7a;
+    border-color: none;
+    border-top: 5px;
   }
 
-#escreva{
+#escreva {
     width: 60%;
     height: 400px;
     background-color: none;
@@ -83,7 +85,7 @@ textarea {
     <!--- parte do texto que é decodificado --->
   }
 
-#texto::selection{
+#texto: selection {
     background: none;
     color: inherit #F1F1F1;
 }
@@ -106,7 +108,7 @@ textarea {
     margin-left: 10px;
 }
 
-.botoes li:hover {
+.botoes li: hover {
     cursor: pointer;
     background-color: #ffeaea;
     transition: 0.1s;
@@ -115,7 +117,7 @@ textarea {
   
 }
 
-.botoes li:active{
+.botoes li: active {
     background-color: #ffeaea;
     border-color: #c2c2c2;
     font-weight: bolder;
@@ -124,12 +126,12 @@ textarea {
 
 
 
-.botoes li::selection{
+.botoes li:selection{
     background: none;
     color: inherit;
 }
 
-.texto-copia{
+.texto-copia {
     display: inline-block;
     width: 39.5%; 
     text-align: center;
@@ -141,23 +143,44 @@ textarea {
     margin-left: 5px;
 }
 
-footer{
+footer {
 
     padding-top: 5px;
+    font-size: 15px;
     text-align: center;
-    font-weight: bold;
+    
 }
 
+
+.icones {
+
+    width: 4%;
+
+    
+}
+
+.coracao {
+
+    padding-top: 10px;
+    -webkit-filter:grayscale(100%);
+    width: 1.5%;
+    
+
+}
+
+.coracao:hover {
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}
 
 
 @media only screen and (max-width: 767px){
 
 
-    header{
+    header {
         border: none;
         margin: 0;
         border-bottom: 0;
-        border-radius: 4px 4px 0 0;
         background-color: none;
         border-color: none;
         padding: 5px;
@@ -167,10 +190,9 @@ footer{
 
 
 
-main{
+main {
     border-radius: 0;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    
 
     
 }
@@ -185,15 +207,14 @@ main{
     
 }
 
-#escreva{
+#escreva {
     width: 98.7%;
     border-radius: 0;
     border: 0;
     border-right: 0px ;
 }
 
-#texto{
-
+#texto {
     border-right: 20px ;
     width: 80%;
     border-radius: 0;
@@ -207,11 +228,11 @@ main{
    
 }
 
-.texto-copia{
+.texto-copia {
     display: none;
 }
 
-.botoes{
+.botoes {
     text-align: center;
     width: 50%;
     
