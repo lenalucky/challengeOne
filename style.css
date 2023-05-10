@@ -106,6 +106,7 @@ textarea {
     border-radius: 18px;
     width: 120px;
     margin-left: 10px;
+    transition: 1s all;
 }
 
 .botoes li: hover {
@@ -113,6 +114,7 @@ textarea {
     background-color: #ffeaea;
     transition: 0.1s;
     transition-timing-function: ease-in;
+    transform: scale(1.2);
     background-position: 100% 50%;
   
 }
@@ -178,6 +180,18 @@ footer {
     -webkit-filter:grayscale(0%);
     transition: 1s;
 }
+
+.disclaimer {
+
+    font-family: 'Arvo', serif;
+    color: #000000;
+    text-decoration: overline;
+    font-size: 15px;
+
+
+    
+}
+
 
 
 @media only screen and (max-width: 767px){
@@ -262,7 +276,7 @@ main {
 }
 
 .botoes li:hover{
-    background-color: #FFFFFF;
+    background-color: #ffeaea;
 }
 
 .botoes li:active{
