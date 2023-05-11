@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Arvo:wght@100;200;400&display=swap');
 
-html{
+body{
+
+    font-family: 'Arvo', 'Rubik' serif;
+    color: #969595;
+
+}
+
+html {
+    
     background-color: #ffe2e2e5;
 }
-body{
-    font-family: 'Rubik', 'Arvo', serif;
-    color: #969595;
-}
-
 
 header {
     margin-left: 15px;
