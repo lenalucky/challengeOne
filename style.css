@@ -13,10 +13,9 @@ html {
 
 header {
 
-
     margin-left: 5px;
     position: relative;
-    background-color: #FFE4E1;
+    background: linear-gradient(#FFE4E1 5%, #FEFEFE);
     padding: 15px;
     border-radius: 20px;
 }
@@ -167,7 +166,7 @@ footer {
     margin-left: 5px;
     position: relative;
     text-align: center;
-    background-color: #FFE4E1;
+    background: linear-gradient(#FEFEFE, #FFE4E1);
     padding: 15px;
     border-radius: 20px;
     
