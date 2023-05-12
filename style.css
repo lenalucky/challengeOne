@@ -1,5 +1,5 @@
 
-body{
+body {
 
     font-family: 'Arvo', 'Rubik' serif;
     color: #969595;
@@ -8,19 +8,24 @@ body{
 
 html {
     
-    background-color: #ffe2e2e5;
+    background-color: #FFFFFF;
 }
 
 header {
-    margin-left: 15px;
+
+
+    margin-left: 5px;
     position: relative;
+    background-color: #FFE4E1;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 header h1 {
     display: inline-block;
     font-size: 50px;
     font-family: Arvo, serif;
-    padding-left: 10px;
+    padding-left: 10px;                                                                                 
     color: #757575;
     text-decoration: none;
     position: relative;
@@ -28,21 +33,31 @@ header h1 {
 }
 
 header h1 a {
+
     text-decoration: none;
     color: none;
 
 }
 
 main {
-    border-radius: 10px;
+    
     background-color: #ffffff; <!--- tira a cor  da área dos botões --->
-    border-radius: 10px;
+    border-radius: none;
     border: none;
+    padding-top: 20px;
+    width: 100%;
 
 }
 
+.logo {
 
-.area_texto{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+.area_texto {
+
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -50,6 +65,7 @@ main {
 }
 
 textarea {
+    
     font-size: 30px;
     font-family: Rubik, serif;
     resize: none;
@@ -148,9 +164,12 @@ textarea {
 
 footer {
 
-    padding-top: 5px;
-    font-size: 15px;
+    margin-left: 5px;
+    position: relative;
     text-align: center;
+    background-color: #FFE4E1;
+    padding: 15px;
+    border-radius: 20px;
     
 }
 
@@ -199,6 +218,7 @@ footer {
 
 
     header {
+        
         border: none;
         margin: 0;
         border-bottom: 0;
@@ -212,6 +232,7 @@ footer {
 
 
 main {
+
     border-radius: 0;
     
 
@@ -223,6 +244,7 @@ main {
     display: inline;
     border-right: 20px ;
     border-top: 10px;
+    border: none;
    
 
     
@@ -284,4 +306,3 @@ main {
     background-color: #FFFFFF;
 }
 
-}
