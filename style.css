@@ -16,7 +16,7 @@ header {
 
     margin-left: 5px;
     position: relative;
-    background: linear-gradient(#FFE4E1 5%, #FEFEFE);
+    background: linear-gradient(#C1DBEA, #FFE4E1, #FEFEFE);
     padding: 15px;
     border-radius: 20px;
 }
@@ -177,7 +177,7 @@ footer {
     text-align: center;
     font-family: arial;
     font-size: 15px;
-    background: linear-gradient(#FEFEFE, #FFE4E1);
+    background: linear-gradient(#FEFEFE, #FFE4E1, #C1DBEA);
     padding: 15px;
     border-radius: 20px;
     
