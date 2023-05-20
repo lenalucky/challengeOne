@@ -1,3 +1,4 @@
+
 function teste (){
   document.addEventListener("DOMContentLoaded", function() {
     p = document.getElementById('texto');
@@ -6,6 +7,8 @@ function teste (){
 }
 
 teste()
+
+
 
 
 
